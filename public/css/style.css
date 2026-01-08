@@ -1,0 +1,142 @@
+.navbar
+{
+    height: 5rem;
+    background: transparent;
+}
+.fa-compass
+{
+    color: #fe424d;
+    font-size:  2rem;
+}
+.navbar .nav-link {
+    font-weight: 500;   /* bold */
+    color: #222222 !important;  
+}
+.f-info-links a
+{
+   text-decoration: none;
+   color: #222222; 
+}
+.f-info-links a:hover
+{
+   text-decoration: underline;
+   
+}
+.f-info
+{
+   display: flex;
+   height: 8 rem;
+   background-color: #ebebee;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   gap: 12px;
+}
+.f-info-socials
+{
+    font-size:1.2rem;
+}
+.f-info-socials i
+{
+    margin-right:0.8rem
+}
+.card
+{
+    border: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+.card-img-top
+{
+   
+    /* width: 100% !important; */
+    object-fit: cover !important ;
+    height: 20rem;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.row{
+     /* border-radius:0.4rem !important; */
+    width: 100% !important;
+    
+}
+.card-body
+{
+    padding: 0 !important;
+    text-decoration: none;
+}
+.one
+{
+    font-weight:600 !important;
+}
+body
+{
+    font-family: "Plus Jakarta Sans",sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.card-col
+{
+    margin-left: 10px;
+}
+.listing-lists
+{
+    text-decoration: none;
+    color: inherit;
+}
+.listing-lists {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Smooth transition */
+.listing-lists .card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* HOVER EFFECT */
+.listing-lists:hover .card {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* CLICK (ACTIVE) EFFECT */
+.listing-lists:active .card {
+    transform: translateY(-2px) scale(0.98);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.card-img-overlay
+{
+    opacity: 0;
+}
+.card-img-overlay:hover
+{
+    opacity: 2;
+}
+.container
+{
+    flex: 1;
+}
+.btn-dark
+{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+.show-img
+{
+    height: 30vh;
+    width: 30;
+}
+.btns
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.del
+{
+    background-color: black !important;
+    color: rgb(248, 245, 245) !important;
+}
