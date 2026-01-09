@@ -14,6 +14,11 @@ async function main() {
     await mongoose.connect(MONGO_URL);
 }
 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+
 //  start server only after DB connects
 main()
     .then(() => {
